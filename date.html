@@ -1,0 +1,25 @@
+<html>
+
+    <head>
+        <p id="date"></p>
+    </head>
+
+    <body>
+        
+        <script>
+
+            function dateTime()
+            {
+                var d = new Date();
+                return (d.getMonth()+1 +'/' + d.getDate ()+'/'+ d.getFullYear());
+            }
+
+            document.getElementById("date").innerHTML=dateTime();
+             
+        </script>
+
+
+
+    </body>
+
+</html>

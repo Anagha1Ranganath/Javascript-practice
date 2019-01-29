@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <p id = "deldup"></p>
+    </head>
+
+    <body>
+
+        <script>
+            function duplicateremoval(){
+
+                var duplicatearray = ["BB","SR","GT","SVB","GT"];
+                return (Array.from(new Set(duplicatearray)));
+
+            }
+
+            document.getElementById("deldup").innerHTML=duplicateremoval();
+        </script>
+    </body>
+</html>

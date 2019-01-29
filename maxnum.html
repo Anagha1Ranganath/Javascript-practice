@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <p id = "largest"></p>
+    </head>
+
+    <body>
+
+        <script>
+            var numarray = [4,3,1,5,10];
+            var max = numarray[0];
+            for(var i = 1; i<5; i++)
+            {
+                if(numarray[i]>max)
+                max = numarray[i];
+            }
+
+            document.getElementById("largest").innerHTML=max;
+        </script>
+    </body>
+</html>
